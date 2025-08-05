@@ -10,7 +10,10 @@ $\text{H}\text{S}_2\text{C}$: Homophily-aware Structural and Semantic Compressio
 PYTHON 3.8, PyTorch 2.0.0, PyTorch Geometric 2.5.3, transformers 4.46.3
 
 ## Datasets
-You can make directory `dataset`, and download the datasets through the Google drive:
+You can make directory `src/dataset`, and download the datasets through the Google drive:
 ```
 https://drive.google.com/drive/folders/1w_XtfoaOqNjgdzYLRIW0kA1uZLB3CCDp
 ```
+
+## Model
+You can make directory `src/A_base_model`, and download the [LLaMA 3.1 8B Instruct model](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) from Hugging Face.
