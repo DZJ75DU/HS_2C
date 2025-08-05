@@ -1199,7 +1199,7 @@ if __name__ == "__main__":
     argparser.add_argument('--new_date', type=str, default='20250606')
     argparser.add_argument('--task', type=str, default="classification")
     argparser.add_argument('--dataset', type=str, default="ogb_arxiv")
-    argparser.add_argument('--model_path', type=str, default="/root/autodl-tmp/A_base_model")
+    argparser.add_argument('--model_path', type=str, default="A_base_model")
     argparser.add_argument('--model_name', type=str, default="Llama-3.1-8b-Instruct")
     argparser.add_argument('--llm_length', type=int, default=4000)
     argparser.add_argument('--max_token', type=int, default=100)
