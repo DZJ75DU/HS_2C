@@ -361,11 +361,11 @@ class graph_dataset(Dataset):
         self.graph_tree_prompt = graph_tree_template
 
         self.load_metadata()
-        self.data_reconstruction_process()
-
-        self.re_id = self.re_id_construction()
-        self.match_ori_node_idx()
-        self.rag_neighbor_prompt()
+        # self.data_reconstruction_process()
+        #
+        # self.re_id = self.re_id_construction()
+        # self.match_ori_node_idx()
+        # self.rag_neighbor_prompt()
         self.reconstruct_classification()
 
     def load_metadata(self):
