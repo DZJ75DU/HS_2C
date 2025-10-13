@@ -25,7 +25,7 @@ You can make directory `src/dataset`, and download the datasets through the [Goo
 We add graph-level classification tasks on **Graph-SST2**, **OGBG-Molhiv**.
 We further evaluate $\text{H}\text{S}_2\text{C}$ on large-scale **DBLP** dataset (*#N ≈ 2M, #E ≈ 30M*).
 
-All datasets are available on Google Drive.
+Graph-Level datasets are available on [Google drive](https://drive.google.com/drive/folders/1CeA7LYE1Pp7ZS5_qDrYoaJGtKWtVPM0t)..
 
 ## Model
 You can make directory `src/A_base_model`, and download the [LLaMA 3.1 8B Instruct model](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) from Hugging Face.
