@@ -9,26 +9,9 @@ $\text{H}\text{S}_2\text{C}$: Homophily-aware Structural and Semantic Compressio
 ## Dependency
 PYTHON 3.8, PyTorch 2.0.0, PyTorch Geometric 2.5.3, transformers 4.46.3
 
-## Implementation
-```bash
-# Data Preprocess
-CUDA_VISIBLE_DEVICES=0 python data_preprocess.py --new_date 20250606 --dataset ogb_arxiv --model_name Llama-3.1-8b-Instruct
-
-# Run HS2C
-CUDA_VISIBLE_DEVICES=0 python reconstruct_classification.py --new_date 20250606 --dataset ogb_arxiv --model_name Llama-3.1-8b-Instruct
-```
-
 ## Datasets
-You can make directory `src/dataset`, and download the datasets through the [Google drive](https://drive.google.com/drive/folders/1w_XtfoaOqNjgdzYLRIW0kA1uZLB3CCDp).
-
-#### Update
-We add graph-level classification tasks on **Graph-SST2**, **OGBG-Molhiv**.
-We further evaluate $\text{H}\text{S}_2\text{C}$ on large-scale **DBLP** dataset (*#N ≈ 2M, #E ≈ 30M*).
-
+You can make directory `src/dataset`, and download the Node-level datasets through the [Google drive](https://drive.google.com/drive/folders/1w_XtfoaOqNjgdzYLRIW0kA1uZLB3CCDp).
 Graph-Level datasets are available on [Google drive](https://drive.google.com/drive/folders/1CeA7LYE1Pp7ZS5_qDrYoaJGtKWtVPM0t)..
 
 ## Model
 You can make directory `src/A_base_model`, and download the [LLaMA 3.1 8B Instruct model](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) from Hugging Face.
-
-#### Update
-We implement $\text{H}\text{S}_2\text{C}$ with LLMs from various families and sizes (**Llama-3.2-3B**, **Vicuna-7B-v1.5**, **Llama-3.1-8B**).
