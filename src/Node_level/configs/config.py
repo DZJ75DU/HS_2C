@@ -23,7 +23,7 @@ class Config:
         # Experiment Info
         self.parser.add_argument('--new_date', type=str, default='20250606')
         self.parser.add_argument('--task', type=str, default="classification")
-        self.parser.add_argument('--dataset', type=str, default="ogb_arxiv", choices=["ogb_arxiv", "ogb_arxiv_hete", "arxiv_2023", "citeseer", "instagram", "reddit", "products", "book_hete", "book_homo", "dblp_hete", "dblp_homo"])
+        self.parser.add_argument('--dataset', type=str, default="ogb_arxiv", choices=["ogb_arxiv", "arxiv_2023", "citeseer", "instagram", "reddit", "products", "book_hete", "book_homo", "dblp_hete", "dblp_homo"])
         self.parser.add_argument('--data_preprocess_seed', type=int, default=0)
         self.parser.add_argument('--sample_neighbor_seed', type=int, default=0)
         self.parser.add_argument('--method', default="rag", choices=["random", "number", "degree", "rag"])
