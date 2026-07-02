@@ -14,4 +14,4 @@ You can make directory `src/dataset`, and download the Node-level datasets throu
 Graph-Level datasets are available on [Google drive](https://drive.google.com/drive/folders/1CeA7LYE1Pp7ZS5_qDrYoaJGtKWtVPM0t).
 
 ## Model
-You can make directory `src/A_base_model`, and download the [LLaMA 3.1 8B Instruct model](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) from Hugging Face.
+You can make directory `src/A_base_model`, and download the [LLaMA 3.1 8B Instruct model](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) [LLaMA 3.2 3B Instruct model](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct) [Vicuna 7B model](https://huggingface.co/lmsys/vicuna-7b-v1.5) from Hugging Face.
